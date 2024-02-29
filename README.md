@@ -14,7 +14,9 @@ Key Features:
 ~ Rate Limiter: Prevent resource abuse and ensure fair usage by limiting client requests within specified time frames.
 
 ~ Authentication: Safeguard access to resources with robust authentication mechanisms:
+
 -> JWT Authentication: Securely authenticate and access protected resources using JSON Web Tokens (JWT), facilitating secure communication.
+
 -> Refresh Token: Enhance security and user experience by extending access token validity without frequent re-authentication.
 
 ~ Basic CRUD Actions: Seamlessly manage application data with support for Create, Read, Update, and Delete operations, ensuring effortless resource interaction.
