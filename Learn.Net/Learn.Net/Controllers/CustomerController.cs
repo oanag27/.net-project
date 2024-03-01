@@ -1,10 +1,14 @@
 ﻿using Learn.Net.Modal;
 using Learn.Net.Services;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.RateLimiting;
 
 namespace Learn.Net.Controllers
 {
+    [EnableRateLimiting("fixedwindow")]
+    [EnableCors("corspolicy")]
     [Route("api/[controller]")]
     [ApiController]
     public class CustomerController : ControllerBase

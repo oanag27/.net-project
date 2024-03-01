@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Learn.Net"
+    "\\Learn.Net",
+    "\\Learn.Net\\Learn.Net",
+    "\\Learn.Net\\Learn.Net\\Container",
+    "\\Learn.Net\\Learn.Net\\Controllers"
   ],
-  "SelectedNode": "\\Learn.Net\\Learn.Net.sln",
+  "SelectedNode": "\\Learn.Net\\Learn.Net\\Controllers\\AuthorizeController.cs",
   "PreviewInSolutionExplorer": false
 }
