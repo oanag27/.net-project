@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oanam\\Source\\Repos\\.net-project\\Learn.Net\\Learn.Net\\Learn.Net.csproj": {}
+    "C:\\Users\\oanam\\source\\repos\\.net-project\\Learn.Net\\Learn.Net\\Learn.Net.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oanam\\Source\\Repos\\.net-project\\Learn.Net\\Learn.Net\\Learn.Net.csproj": {
+    "C:\\Users\\oanam\\source\\repos\\.net-project\\Learn.Net\\Learn.Net\\Learn.Net.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oanam\\Source\\Repos\\.net-project\\Learn.Net\\Learn.Net\\Learn.Net.csproj",
+        "projectUniqueName": "C:\\Users\\oanam\\source\\repos\\.net-project\\Learn.Net\\Learn.Net\\Learn.Net.csproj",
         "projectName": "Learn.Net",
-        "projectPath": "C:\\Users\\oanam\\Source\\Repos\\.net-project\\Learn.Net\\Learn.Net\\Learn.Net.csproj",
+        "projectPath": "C:\\Users\\oanam\\source\\repos\\.net-project\\Learn.Net\\Learn.Net\\Learn.Net.csproj",
         "packagesPath": "C:\\Users\\oanam\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\oanam\\Source\\Repos\\.net-project\\Learn.Net\\Learn.Net\\obj\\",
         "projectStyle": "PackageReference",
@@ -48,6 +48,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.16, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
