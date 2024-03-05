@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eqZbILaad6kuvMkphZrJHIsIp27BYi3CyV7qMttxBZKAK4iATwrQEi/s9j58KTTyhBapjS2RiP3TYXVN9WsJMQ==",
+  "dgSpecHash": "ug50EpRCWQLxmxZVi5sGsjjOJfP4Qg05ljMDDuSiSX6UQIxqHljTGX7nrA/PsWvm3y0It5/ZVd0cR3wSRGKN8Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\oanam\\Source\\Repos\\.net-project\\Learn.Net\\Learn.Net\\Learn.Net.csproj",
+  "projectFilePath": "C:\\Users\\oanam\\source\\repos\\.net-project\\Learn.Net\\Learn.Net\\Learn.Net.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oanam\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\oanam\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

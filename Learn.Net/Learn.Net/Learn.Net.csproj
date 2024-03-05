@@ -27,6 +27,7 @@
 
   <ItemGroup>
     <Folder Include="Repository\Models\" />
+    <Folder Include="wwwroot\Upload\product\" />
   </ItemGroup>
 
 </Project>
