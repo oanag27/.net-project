@@ -101,6 +101,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseStaticFiles(); //for the image upload
+
 app.UseCors("corspolicy");
 
 app.UseHttpsRedirection();
