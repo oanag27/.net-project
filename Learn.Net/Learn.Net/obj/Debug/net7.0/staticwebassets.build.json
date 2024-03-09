@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "QLBUya7Sh9PwBZu1HeQs6XkoxdVtt0Jqujncbt/wGEo=",
+  "Hash": "4NCQJ1dL+iRxhBtlKHg9hq58KePd4G81ts+0psQv+ko=",
   "Source": "Learn.Net",
   "BasePath": "_content/Learn.Net",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Learn.Net\\wwwroot",
+      "Source": "Learn.Net",
+      "ContentRoot": "C:\\Users\\oanam\\source\\.net\\.net-project\\Learn.Net\\Learn.Net\\wwwroot\\",
+      "BasePath": "_content/Learn.Net",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

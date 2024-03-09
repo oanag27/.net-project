@@ -1,5 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Learn.Net.Helper;
+using Learn.Net.Repository;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Learn.Net.Controllers
 {
