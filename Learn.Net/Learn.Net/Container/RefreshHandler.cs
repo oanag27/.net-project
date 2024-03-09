@@ -8,8 +8,8 @@ namespace Learn.Net.Container
 {
     public class RefreshHandler: IRefreshHandler
     {
-        private readonly LearnContext context;
-        public RefreshHandler(LearnContext context)
+        private readonly Repository.LearnContext context;
+        public RefreshHandler(Repository.LearnContext context)
         {
             this.context = context;
         }

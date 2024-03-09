@@ -10,11 +10,11 @@ namespace Learn.Net.Container
 {
     public class CustomerService : ICustomerService
     {
-        private readonly LearnContext _context;
+        private readonly Repository.LearnContext _context;
         //inject IMapper
         private readonly IMapper _mapper;
         private readonly ILogger<CustomerService> _logger;
-        public CustomerService(LearnContext context,IMapper mapper1, ILogger<CustomerService> logger)
+        public CustomerService(Repository.LearnContext context,IMapper mapper1, ILogger<CustomerService> logger)
         {
             _context = context;
             _mapper = mapper1;
