@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace Learn.Net.Repository.Models;
 
-public partial class TblProduct
+public partial class TblMenu
 {
     public string Code { get; set; } = null!;
 
-    public string? Name { get; set; }
+    public string Name { get; set; } = null!;
 
-    public decimal? Price { get; set; }
+    public bool? Status { get; set; }
 }
