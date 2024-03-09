@@ -23,6 +23,10 @@ builder.Services.AddSwaggerGen();
 //dependency injection
 builder.Services.AddTransient<ICustomerService,CustomerService>();
 builder.Services.AddTransient<IRefreshHandler, RefreshHandler>();
+builder.Services.AddTransient<IUserService, UserService>();
+builder.Services.AddTransient<IUserRoleService, UserRoleService>();
+
+
 //basic config for the entity framework core
 builder.Services.AddDbContext<LearnContext>(x =>
 x.UseSqlServer(builder.Configuration.GetConnectionString("apiconnection")));
