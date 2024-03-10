@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Learn.Net.Repository.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Learn.Net.Repository;
+namespace Learn.Net.Repository.Models;
 
 public partial class LearnContext : DbContext
 {
@@ -330,6 +329,10 @@ public partial class LearnContext : DbContext
                 .HasMaxLength(50)
                 .IsUnicode(false)
                 .HasColumnName("role");
+            entity.Property(e => e.Username)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("username");
         });
 
         OnModelCreatingPartial(modelBuilder);

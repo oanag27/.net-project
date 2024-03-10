@@ -26,6 +26,39 @@ namespace Learn.Net.Controllers
             var response = await _userService.ConfirmRegistration(userId, username, outputText);
             return Ok(response);
         }
+        [HttpPost("ResetPassword")]
+        public async Task<IActionResult> ResetPassword(string username, string oldPassword, string newPassword)
+        {
+            var response = await _userService.ResetPassword(username, oldPassword,newPassword);
+            return Ok(response);
+        }
 
+        [HttpPost("ForgetPassword")]
+        public async Task<IActionResult> ForgetPassword(string username)
+        {
+            var response = await _userService.ForgetPassword(username);
+            return Ok(response);
+        }
+
+        [HttpPost("UpdatePassword")]
+        public async Task<IActionResult> UpdatePassword(string username, string password, string optText)
+        {
+            var response = await _userService.UpdatePassword(username, password, optText);
+            return Ok(response);
+        }
+
+        [HttpPost("UpdateStatus")]
+        public async Task<IActionResult> UpdateStatus(string username, bool status)
+        {
+            var response = await _userService.UpdateStatus(username, status);
+            return Ok(response);
+        }
+
+        [HttpPost("UpdateRole")]
+        public async Task<IActionResult> UpdateRole(string username, string role)
+        {
+            var response = await _userService.UpdateRole(username, role);
+            return Ok(response);
+        }
     }
 }
